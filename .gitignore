@@ -1,0 +1,41 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directory
+node_modules/
+
+# Production build
+dist/
+
+# Optional: local database or dev mock data
+db.json
+
+# Sass/SCSS cache
+.sass-cache/
+
+# VSCode settings (optional, personal preference)
+.vscode/
+
+# Mac metadata files
+.AppleDouble
+.LSOverride
+
+# Environment variables
+.env
+.env.*.local
+
+# Editor-specific
+.idea/
+*.swp
+*.swo
+
+# Prettier & ESLint cache
+.prettiercache
+.eslintcache

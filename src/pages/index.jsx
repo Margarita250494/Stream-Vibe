@@ -6,7 +6,7 @@ export default function () {
       <Head>
         <title>Hello!</title>
       </Head>
-      <h1>Hello!</h1>
+      <h1>Hello World!</h1>
     </>
   )
 }

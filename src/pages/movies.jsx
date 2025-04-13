@@ -1,11 +1,11 @@
 export const metadata = {
-  title: "Home",
+  title: "Movies & Shows",
 }
 
 export default function () {
   return (
     <>
-      <h1>Main Page/ Home page</h1>
+      <h1>Movies Page</h1>
     </>
   )
 }

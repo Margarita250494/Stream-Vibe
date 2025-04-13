@@ -33,7 +33,7 @@
   --color-gray-97: #f7f7f8;
   --color-gray-99: #fcfcfd;
 
-  --border: var(--border-width-s) solid var(var(--color-black-15));
+  --border: var(--border-width-s) solid var(--color-black-15);
 
   --border-radius-l: 12px;
   --border-radius-m: 10px;
@@ -56,6 +56,6 @@
 
   --section-padding-y: #{fluid(75, 40)};
 
-  --transition-duration: 0.2s;
+  --transition-duration: 0.3s;
   --transition-duration-longer: 0.4s;
 }

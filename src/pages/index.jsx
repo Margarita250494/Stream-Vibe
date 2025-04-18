@@ -1,11 +1,16 @@
+import { Categories, Devices, Hero } from "@/sections"
+
 export const metadata = {
   title: "Home",
+  isHeaderFixed: true,
 }
 
 export default function () {
   return (
     <>
-      <h1>Main Page/ Home page</h1>
+      <Hero />
+      <Categories />
+      <Devices />
     </>
   )
 }

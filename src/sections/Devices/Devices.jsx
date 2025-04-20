@@ -1,4 +1,3 @@
-import "./Devices.scss"
 import Section from "@/layouts/Section"
 import { deviceItems } from "@/utils/data"
 import Grid from "@/components/Grid"

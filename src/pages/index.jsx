@@ -1,4 +1,4 @@
-import { Categories, Devices, Hero } from "@/sections"
+import { Categories, Devices, Hero, Plans, Questions } from "@/sections"
 
 export const metadata = {
   title: "Home",
@@ -11,6 +11,8 @@ export default function () {
       <Hero />
       <Categories />
       <Devices />
+      <Questions />
+      <Plans />
     </>
   )
 }

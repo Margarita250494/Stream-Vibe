@@ -394,3 +394,30 @@ export const plansGroup = [
     ],
   },
 ]
+
+export const movieCards = [
+  {
+    title: "Avengers : Endgame",
+    description:
+      "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.",
+    imgSrc: "/src/assets/images/movie-banner/avengers.jpg",
+  },
+  {
+    title: "Thor: Ragnarok",
+    description:
+      "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.",
+    imgSrc: "/src/assets/images/movie-banner/thor.jpg",
+  },
+  {
+    title: "Spider-Man: No Way Home",
+    description:
+      "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.",
+    imgSrc: "/src/assets/images/movie-banner/spiderMan.jpg",
+  },
+  {
+    title: "Captain America: The First Avenger",
+    description:
+      "With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos's actions and undo the chaos to the universe, no matter what consequences may be in store, and no matter who they face... Avenge the fallen.",
+    imgSrc: "/src/assets/images/movie-banner/captainAmerica.jpg",
+  },
+]

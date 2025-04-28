@@ -20,8 +20,28 @@ export const MovieBannerCard = (props) => {
             className="movie-banner-card__play-button"
             iconName="playButton"
             label="PLay Now"
+            hasFillIcon
           />
-          <div className="movie-banner-card__actions"></div>
+          <div className="movie-banner-card__actions">
+            <Button
+              iconName="plus"
+              label="Add to playlist"
+              isLabelHidden
+              mode="black-06"
+            />
+            <Button
+              iconName="like"
+              label="Like"
+              isLabelHidden
+              mode="black-06"
+            />
+            <Button
+              iconName="volume"
+              label="Mute"
+              isLabelHidden
+              mode="black-06"
+            />
+          </div>
         </footer>
       </div>
     </div>

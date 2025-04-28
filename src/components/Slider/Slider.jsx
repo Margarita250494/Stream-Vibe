@@ -39,7 +39,9 @@ export const Slider = (props) => {
     navigationTargetElementId = null,
     sliderParams = defaultSliderParents,
     isBeyondTheViewportOnMobileS,
-    hasScrollBar = true,
+    hasScrollBarOnMobile = true,
+    navigationPosition = "",
+    isNavigationHiddenMobile = true,
   } = props
   return (
     <div
@@ -61,9 +63,13 @@ export const Slider = (props) => {
         </ul>
       </div>
       {!navigationTargetElementId && (
-        <SliderNavigation className="slider-navigation" />
+        <SliderNavigation
+          className="slider-navigation"
+          position={navigationPosition}
+          isHiddenMobile={isNavigationHiddenMobile}
+        />
       )}
-      {hasScrollBar && (
+      {hasScrollBarOnMobile && (
         <div
           className="slider__scrollbar visible-mobile"
           data-js-slider-scrollbar=""

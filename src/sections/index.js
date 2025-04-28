@@ -6,5 +6,15 @@ import { Plans } from "@/sections/Plans/Plans"
 import { Banner } from "@/sections/Banner/Banner"
 
 import { MoviesBanner } from "@/sections/MoviesBanner/MoviesBanner"
+import { Collections } from "@/sections/Collections/Collections"
 
-export { Hero, Categories, Devices, Questions, Plans, Banner, MoviesBanner }
+export {
+  Hero,
+  Categories,
+  Devices,
+  Questions,
+  Plans,
+  Banner,
+  MoviesBanner,
+  Collections,
+}

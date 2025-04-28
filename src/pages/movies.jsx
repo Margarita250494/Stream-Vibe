@@ -1,4 +1,4 @@
-import { MoviesBanner } from "@/sections"
+import { Collections, MoviesBanner } from "@/sections"
 
 export const metadata = {
   title: "Movies & Shows",
@@ -8,6 +8,7 @@ export default function () {
   return (
     <>
       <MoviesBanner />
+      <Collections />
     </>
   )
 }

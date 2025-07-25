@@ -421,3 +421,42 @@ export const movieCards = [
     imgSrc: "/src/assets/images/movie-banner/captainAmerica.jpg",
   },
 ]
+
+export const castItems = [
+  {
+    imgSrc: "/src/assets/images/casts/cast_1.jpg",
+    imgAlt: "Ariel Musterman",
+  },
+  {
+    imgSrc: "/src/assets/images/casts/cast_2.jpg",
+    imgAlt: "David Musterman",
+  },
+  {
+    imgSrc: "/src/assets/images/casts/cast_3.jpg",
+    imgAlt: "Aaron Musterman",
+  },
+  {
+    imgSrc: "/src/assets/images/casts/cast_4.jpg",
+    imgAlt: "Dana Musterman",
+  },
+  {
+    imgSrc: "/src/assets/images/casts/cast_5.jpg",
+    imgAlt: "Margalit Musterman",
+  },
+  {
+    imgSrc: "/src/assets/images/casts/cast_6.jpg",
+    imgAlt: "Adam Musterman",
+  },
+  {
+    imgSrc: "/src/assets/images/casts/cast_7.jpg",
+    imgAlt: "Salomon Musterman",
+  },
+  {
+    imgSrc: "/src/assets/images/casts/cast_8.jpg",
+    imgAlt: "Ismael Musterman",
+  },
+  {
+    imgSrc: "/src/assets/images/casts/cast_7.jpg",
+    imgAlt: "Elimelech Musterman",
+  },
+]

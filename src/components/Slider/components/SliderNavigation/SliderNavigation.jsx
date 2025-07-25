@@ -7,10 +7,11 @@ export const SliderNavigation = (props) => {
     className,
     id,
     hasPagination = true,
-    /*''-default, tile*/
+    /*''-default, tile, rounded*/
     mode = "",
     position = "",
     isHiddenMobile,
+    buttonMode = "black-10",
   } = props
   return (
     <div
@@ -24,7 +25,7 @@ export const SliderNavigation = (props) => {
     >
       <Button
         className="slider-navigation__arrow-button slider-navigation__arrow-button-previous"
-        mode="black-10"
+        mode={buttonMode}
         iconName="arrow-left"
         label="Previous Slide"
         isLabelHidden

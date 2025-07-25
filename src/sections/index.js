@@ -8,6 +8,9 @@ import { Banner } from "@/sections/Banner/Banner"
 import { MoviesBanner } from "@/sections/MoviesBanner/MoviesBanner"
 import { Collections } from "@/sections/Collections/Collections"
 
+import { MovieBanner } from "./MovieBanner/MovieBanner"
+import { MovieDetails } from "./MovieDetails/MovieDetails"
+
 export {
   Hero,
   Categories,
@@ -17,4 +20,6 @@ export {
   Banner,
   MoviesBanner,
   Collections,
+  MovieBanner,
+  MovieDetails,
 }

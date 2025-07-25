@@ -41,6 +41,7 @@ export const Slider = (props) => {
     isBeyondTheViewportOnMobileS,
     hasScrollBarOnMobile = true,
     navigationPosition = "",
+    navigationMode,
     isNavigationHiddenMobile = true,
   } = props
   return (
@@ -64,6 +65,7 @@ export const Slider = (props) => {
       </div>
       {!navigationTargetElementId && (
         <SliderNavigation
+          mode={navigationMode}
           className="slider-navigation"
           position={navigationPosition}
           isHiddenMobile={isNavigationHiddenMobile}
